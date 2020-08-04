@@ -1,5 +1,7 @@
 {
   "name": "shadow-toolbar",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
