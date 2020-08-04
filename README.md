@@ -1,0 +1,1 @@
+Repro for this bug: https://github.com/ionic-team/ionic-framework/issues/21874
