@@ -19,11 +19,10 @@ export class FolderPage implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    const shadowRoot = this.content.nativeElement.attachShadow({mode: 'open'});
     const contentDiv = document.createElement('div');
     contentDiv.id = 'contentDiv';
     contentDiv.innerHTML = HTML.code();
 
-    shadowRoot.appendChild(contentDiv);
+    this.content.nativeElement.appendChild(contentDiv);
   }
 }
